@@ -1,0 +1,14 @@
+<h2>Bubble Maps</h2>
+<plotly-plot *ngIf="bubbleMaps.data.length" [data]="bubbleMaps.data" [layout]="bubbleMaps.layout"></plotly-plot>
+
+<h2>Table</h2>
+<plotly-plot *ngIf="table.data.length" [data]="table.data"></plotly-plot>
+
+<h2>Stacked Bars</h2>
+<plotly-plot *ngIf="stackedBar.data.length" [data]="stackedBar.data" [layout]="stackedBar.layout"></plotly-plot>
+
+<h2>Pie</h2>
+<plotly-plot *ngIf="pie.data.length" [data]="pie.data" [layout]="pie.layout"></plotly-plot>
+
+<h2>Mix</h2>
+<plotly-plot *ngIf="grid.data.length" [data]="grid.data" [layout]="grid.layout"></plotly-plot>
